@@ -1,0 +1,16 @@
+page{
+    background-color: #FFFFFF;
+}
+#successicon{
+  margin-top: 50rpx;
+}
+#successtext{
+  margin-top: 50rpx;
+}
+#djbutton{
+  margin-top: 50rpx;
+}
+.weui-btn{
+  margin-top: 30rpx;
+  width: 85%;
+}

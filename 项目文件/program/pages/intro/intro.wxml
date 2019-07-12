@@ -1,0 +1,100 @@
+<view id='article' style='display:none;'>
+  <image src='../../image/backgroundmobile.png' id='beijing'></image>
+  <view id='atitle'>权益菌宗旨</view>
+  <view id='acontent'>
+    <text space='emsp'>希望能成为你大学生活的得力助手\n希望能让你拥有更加便利的生活\n希望能让你能对书院活动了如指掌\n希望能协助你将生活问题尽快解决\n希望自己能越来越好\n也希望权益能越来越好</text>
+  </view>
+</view>
+
+<view id='public'>
+  <wux-cell-group title="友情链接" label=" ">
+  <navigator url='../yqlj/weui'>
+    <wux-cell is-link extra="">
+      <view class='infor'><image src='../../image/weuiicon.jpg' class='yqljimg'></image></view>
+      <text class='yqljword'> WeUI</text>
+    </wux-cell>
+  </navigator>
+  <navigator url='../yqlj/wuxui'>
+    <wux-cell is-link extra="">
+      <view class='infor'><image src='../../image/wuxuiicon.png' class='yqljimg'></image></view>
+      <text class='yqljword'> WuxUI</text>
+    </wux-cell>
+  </navigator>
+  <navigator url='../yqlj/tucao'>
+    <wux-cell is-link extra="">
+      <view class='infor'><image src='../../image/tucao.jpg' class='yqljimg'></image></view>
+      <text class='yqljword'> 吐个槽</text>
+    </wux-cell>
+  </navigator>
+  <navigator url='../yqlj/tp'>
+    <wux-cell is-link extra="">
+      <view class='infor'><image src='../../image/tongpao.png' class='yqljimg'></image></view>
+      <text class='yqljword'> 同袍</text>
+    </wux-cell>
+  </navigator>
+  <navigator url='../yqlj/ques'>
+    <wux-cell is-link extra="">
+      <view class='infor'><image src='../../image/questionor.png' class='yqljimg'></image></view>
+      <text class='yqljword'> Questionor</text>
+    </wux-cell>
+  </navigator>
+  </wux-cell-group>
+</view>
+
+<view id='person'>
+  <view id='ptitle'>历届开发者 </view>
+  <view class='pname'>
+    <text space='nbsp'>    軒</text>
+    <view class='pdes'>初代目</view>
+  </view>
+</view>
+
+<view id='number'>
+  <view id='ntitle'><text space='nbsp'>      当前版本</text></view>
+  <view id='nname'>1.3.0</view>
+</view>
+
+
+<view id='contactme'>
+  <view class='contactword'><text space='nbsp'>      联系我们</text></view>
+  <contact-button type="default-dark" size="23" session-from="weapp" id='kefu'></contact-button>
+</view>
+
+<view id='welcome'>欢迎加入权益部，完善"权益菌"<view id='yep'>权心权意，全心为你</view></view>
+
+<view class="weui-footer weui-footer_fixed-bottom" id='qyjbq'>
+  <view class="qyjxz"></view>
+  <view class="weui-footer__text">Copyright © 2018-2018 BUAA.QYJ</view>
+</view>
+
+<view id='bottom'>
+  <view  class='li_func' id='home' bindtap='tohome'>
+    <view class='bottom_icon'><image src='{{homeimg}}' class='icon_image'></image></view>
+  </view>
+  <view class='li_func' id='alert'>
+    <view class='bottom_icon'><image src='{{alertimg}}' class='icon_image'></image></view>
+  </view>
+  <view class='li_func' id='identity' bindtap='tome'>
+    <view class='bottom_icon'><image src='{{identityimg}}' class='icon_image'></image></view>
+  </view>
+</view>
+
+<wux-toast id="wux-toast" />
+<!-- <view id='fbutton'>
+  <view class='iicon' id='icon1' bindtap='tohome'>
+    <text class='iconfont icon-homepage' style='color:#;font-size:60rpx;'></text>
+    <view class='fkword' id='fk1'>首页</view>
+  </view>
+  <view class='iicon' id='icon2' bindtap="showToastjl">
+    <text class='iconfont icon-other' style='color:#;font-size:70rpx;'></text>
+    <view class='fkword' id='fk2'>使用记录</view> 
+  </view>
+  <view class='iicon' id='icon3'>
+    <text class='iconfont icon-group' style='color:#;font-size:60rpx;'></text>
+    <view class='fkword' id='fk3'>关于权益菌</view>
+  </view>
+  <view class='iicon' id='icon4' bindtap='tome'>
+    <text class='iconfont icon-mine' style='color:#;font-size:60rpx;'></text>
+    <view class='fkword' id='fk4'>我</view>
+  </view>
+</view> -->

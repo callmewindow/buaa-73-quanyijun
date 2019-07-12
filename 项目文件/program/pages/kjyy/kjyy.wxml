@@ -1,0 +1,65 @@
+<!--pages/kjyy/kjyy.wxml-->
+<view id='introduction'>
+  <wux-cell-group title=" " label=" ">
+  <navigator url='../yyxz/yyxz'>
+    <wux-cell is-link extra="">
+      <view class='intro' style='display:block;'><view class='iiicon'><text class='iconfont icon-prompt' style='color:#;font-size:50rpx;'></text></view></view>
+      <text class='word'> 使用须知</text>
+    </wux-cell>
+  </navigator>
+  <navigator url='../kjjs/kjjs'>
+    <wux-cell is-link extra="">
+      <view class='intro'><view class='iiicon'><text class='iconfont icon-questions' style='color:#;font-size:50rpx;'></text></view></view>
+      <text class='word'> 书院空间介绍</text>
+    </wux-cell>
+   </navigator>
+   <navigator url='../kjjs/gnjs'>
+    <wux-cell is-link extra="">
+      <view class='intro'><view class='iiicon' id='gnjs'><wux-icon type='ios-done-all' size='35'/></view></view>
+      <text class='word'> 73°道具介绍</text>
+    </wux-cell>
+  </navigator>
+  </wux-cell-group>
+</view>
+<view id='appoint'>
+  <wux-cell-group title=" " label=" ">
+    <navigator url='../jxyy/lsyy'>
+    <wux-cell is-link extra="">
+      <view class='appo'><view class='iiicon' id='kjyy'><wux-icon type='ios-jet'  size='27'/></view></view>
+      <text class='word'> 空间预约</text>
+    </wux-cell>
+    </navigator>
+  </wux-cell-group>
+</view>
+
+<!-- <view id='bottom'>
+  <view  class='li_func' id='home' bindtap='tohome2'>
+    <view class='bottom_icon'><image src='{{homeimg}}' class='icon_image'></image></view>
+  </view>
+  <view class='li_func' id='alert' bindtap='toqyj2'>
+    <view class='bottom_icon'><image src='{{alertimg}}' class='icon_image'></image></view>
+  </view>
+  <view class='li_func' id='identity' bindtap='tome2'>
+    <view class='bottom_icon'><image src='{{identityimg}}' class='icon_image'></image></view>
+  </view>
+</view> -->
+
+<wux-toast id="wux-toast" />
+<!-- <view id='fbutton'>
+  <view class='iicon' id='icon1' bindtap='tohome2'>
+    <text class='iconfont icon-homepage' style='color:#;font-size:60rpx;'></text>
+    <view class='fkword' id='fk1'>首页</view>
+  </view>
+  <view class='iicon' id='icon2' bindtap="showToastjl">
+    <text class='iconfont icon-other' style='color:#;font-size:70rpx;'></text>
+    <view class='fkword' id='fk2'>使用记录</view>
+  </view>
+  <view class='iicon' id='icon3' bindtap='toqyj2'>
+    <text class='iconfont icon-group' style='color:#;font-size:60rpx;'></text>
+    <view class='fkword' id='fk3'>关于权益菌</view>
+  </view>
+  <view class='iicon' id='icon4' bindtap="tome2">
+    <text class='iconfont icon-mine' style='color:#;font-size:60rpx;'></text>
+    <view class='fkword' id='fk4'>我</view>
+  </view>
+</view> -->

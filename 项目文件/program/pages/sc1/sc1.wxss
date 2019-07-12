@@ -1,0 +1,77 @@
+
+#bgimg{
+  z-index: -1;
+  height: 1150rpx;
+  width: 100%;
+  position: fixed;
+}
+#passage{
+    position: relative;
+    height: 700rpx;
+    top: 0;
+}
+
+.tiao{
+  margin-top: 50rpx;
+  width: 550rpx;
+  background-color: rgba(180, 195, 230, 0.527);
+  height: 50rpx;
+  padding-top: -10rpx;
+  margin-left: 85rpx;
+  font-size: 35rpx;
+  text-align: left;
+  padding-left: 50rpx;
+  border-radius: 10rpx;
+  color: rgb(94, 94, 116);
+  border-top:3rpx solid rgba(180, 195, 230, 0.692);
+  border-left: 3rpx solid rgba(180, 195, 230, 0.692);
+}
+.tiaoicon{
+  float: right;
+  margin-right: 50rpx;
+}
+#mlcon{
+  height: 600rpx;
+  width: 600rpx;
+  margin-left: 80rpx;
+  background-color: rgba(255, 255, 255, 0.589);
+}
+#mlhead{
+  margin-top: 20rpx;
+}
+.mlpart{
+  width: 90%;
+  font-size: 35rpx;
+  float: left;
+  margin-left: 5%;
+  margin-top: 10rpx;
+  height: 60rpx;
+}
+.part{
+  height: 700rpx;
+  width: 600rpx;
+  margin-left: 80rpx;
+  margin-top: 30rpx;
+}
+.ptitle{
+  width: 70%;
+  font-size: 45rpx;
+  height: 70rpx;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10rpx;
+  margin-left: 15%;
+  color: rgba(0, 0, 0, 0.664);
+}
+.pcon{
+  border: 1rpx solid rgba(0, 0, 0, 0.76);
+  border-radius: 10rpx;
+  width: 90%;
+  height: 600rpx;
+  margin-left: 5%;
+  margin-top: 20rpx;
+  font-size: 30rpx;
+  padding: 10rpx;
+  color: rgba(0, 0, 0, 0.664);
+  background-color: rgba(255, 255, 255, 0.856);
+}

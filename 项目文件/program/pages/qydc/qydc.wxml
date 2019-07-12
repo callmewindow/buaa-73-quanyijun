@@ -1,0 +1,42 @@
+<!--pages/qydc/qydc.wxml-->
+<view id='find'>
+<wux-wing-blank size="default">
+
+  <view id='f0'>
+  <wux-card title="空间意见反馈" extra="2018-10-01">
+    <view slot='body' class='qydcimgv'>
+      <navigator url='../kjyj/kjyj'><image src='../../image/kjwj.png' class='qydcimg0'></image></navigator>
+    </view>
+    <view slot='footer'>正在进行</view>
+  </wux-card>
+  </view>
+
+  <view id='f1'>
+  <wux-card title="第三次权益调查" extra="2018-10-XX">
+    <view slot='body' class='qydcimgv'>
+      <image src='../../image/qydc3.png' class='qydcimg3'></image>
+    </view>
+    <view slot='footer'>暂未开始</view>
+  </wux-card>
+  </view>
+
+  <view id='f2'>
+  <wux-card title="第二次权益调查" extra="2018-03-XX">
+    <view slot='body' class='qydcimgv'>
+    <image src='../../image/qydc2.jpg' class='qydcimg2'></image>
+    </view>
+    <view slot='footer'>已结束</view>
+  </wux-card>
+  </view>
+
+  <view id='f3'>
+  <wux-card title="第一次权益调查" extra="2017-09-XX">
+    <view slot='body' class='qydcimgv' class='bzxsb'>
+    <image src='../../image/qydc1.jpg' class='qydcimg1'></image>
+    </view>
+    <view slot='footer' class='bzxsf'>早已结束</view>
+  </wux-card>
+  </view>
+</wux-wing-blank>
+</view>
+

@@ -1,0 +1,48 @@
+
+page{
+  background-color: rgb(251, 254, 255);
+  position: fixed;
+}
+.intro{
+  width: 90%;
+  margin-left: 5%;
+  height: 200rpx;
+  margin-top: 150rpx;
+}
+.ititle{
+  font-size: 40rpx;
+  text-align: center;
+  font-weight: bold;
+}
+.icont{
+  margin-top: 20rpx;
+  font-size: 30rpx;
+  text-align: left;
+}
+.use{
+  margin-top: 150rpx;
+}
+.website{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 20rpx;
+}
+.webdes{
+  text-align: center;
+  font-size: 35rpx;
+  width: 100%;
+}
+.webicon{
+  height: 150rpx;
+  width: 150rpx;
+  margin-left:230rpx; 
+}
+.zhendesimg{
+  height: 100%;
+  width: 100%;
+}
+.actiondes{
+  font-size: 25rpx;
+  text-align: center;
+  color: gray;
+}

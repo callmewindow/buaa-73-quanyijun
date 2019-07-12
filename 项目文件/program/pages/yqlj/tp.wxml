@@ -1,0 +1,14 @@
+<!--pages/fwsc/xssc.wxml-->
+<view class='intro'>
+  <view class='ititle'>简介</view>
+  <view class='icont'><text space='emsp'>  由北航学长制作，包含课表查看、考试、空教室查询等各种实用（我不会实现的）功能，风靡北航。</text></view>
+</view>
+<view class='use'>
+  <view class='ititle'>使用</view>
+  <view class='website'>
+    <view class='webdes'>各应用商店直接搜索“同袍”下载即可，图标如下：</view>
+    <view class='webicon'><image src='../../image/tongpao.png' class='zhendesimg'></image></view>
+    <view class='actiondes'>（安卓用户可在院群里找到apk下载）</view>
+    <view class='actiondes'>（最新版本：*.*.*）</view>
+  </view>
+</view>

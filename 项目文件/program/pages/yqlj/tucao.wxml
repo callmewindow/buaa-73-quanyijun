@@ -1,0 +1,13 @@
+
+<view class='intro'>
+  <view class='ititle'>简介</view>
+  <view class='icont'><text space='emsp'>  腾讯制作的意见收集专区，交接方便，web、app、小程序均可使用，现应用于书院讨论区。</text></view>
+</view>
+<view class='webicon'><image src='../../image/tucao2.jpg' class='zhendesimg'></image></view>
+<view class='use'>
+  <view class='ititle'>使用</view>
+  <view class='website'>
+    <view class='webdes'>复制以下网址打开即可</view>
+    <view class='webtext'><text selectable='true'>tucao.qq.com</text></view>
+  </view>
+</view>

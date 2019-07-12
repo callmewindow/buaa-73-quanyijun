@@ -1,0 +1,223 @@
+
+page{
+  background-color: rgb(251, 254, 255);
+}
+#article{
+  width: 80%;
+  height: 500rpx;
+  border: 4rpx solid rgb(224, 216, 205);
+  border-radius: 15rpx;
+  margin-left: 9%;
+  margin-top: 50rpx;
+}
+#beijing{
+  width: 100%;
+  position: relative;
+  height: 500rpx;
+  z-index: -1;
+}
+#atitle{
+  width: 100%;
+  text-align: center;
+  margin-top: -500rpx;
+  font-size: 40rpx;
+  border-bottom: 4rpx solid rgb(224, 216, 205);
+  color: rgb(33, 33, 68);
+}
+#acontent{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 20rpx;
+  text-align: center;
+  font-size: 30rpx;
+  line-height: 60rpx;
+  color: rgb(33, 33, 68);
+}
+
+.yqljword{
+  font-size: 30rpx;
+  float: left;
+  margin-top: 5rpx;
+  margin-left: 10rpx;
+  color: rgb(75, 76, 107);
+}
+#public{
+  margin-top: 30rpx;
+}
+.infor{
+  background-color:rgb(0, 132, 255);
+  color: rgb(75, 76, 107);
+  width: 50rpx;
+  height: 50rpx;
+  float: left;
+}
+.yqljimg{
+  height: 100%;
+  width: 100%;
+}
+
+
+#person{
+  width: 100%;
+  margin-top: 00rpx;
+}
+#ptitle{
+  height: 40rpx;
+  font-size: 25rpx;
+  color: rgba(128, 128, 128, 0.788);
+  margin-left: 20rpx;
+}
+.pname{
+  width: 100%;
+  height: 60rpx;
+  margin-top: 10rpx;
+  padding-top: 10rpx;
+  font-size: 30rpx;
+  text-align: left;
+  border-top: 1rpx solid rgba(100, 100, 102, 0.322);
+  border-bottom: 1rpx solid rgba(100, 100, 102, 0.322);
+  background-color: white;
+  color: rgb(44, 44, 92);
+}
+.pdes{
+  float: right;
+  color: rgba(128, 128, 128, 0.945);
+  font-size: 27rpx;
+  margin-top: 5rpx;
+  margin-right: 45rpx;
+}
+
+#number{
+  height: 60rpx;
+  width: 100%;
+  margin-top: 60rpx;
+  border-top: 1rpx solid rgba(100, 100, 102, 0.322);
+  border-bottom: 1rpx solid rgba(100, 100, 102, 0.322);
+  padding-top: 15rpx;
+  color: rgb(44, 44, 92);
+  background-color: white;
+}
+#ntitle{
+  float: left;
+  font-size: 30rpx;
+}
+#nname{
+  float: right;
+  font-size: 30rpx;
+  color: rgba(128, 128, 128, 0.945);
+  margin-right: 40rpx;
+}
+
+#contactme{
+  height: 60rpx;
+  width: 100%;
+  margin-top: 0rpx;
+  background-color: white;
+  padding-top: 10rpx;
+  float: left;
+  border-bottom: 1rpx solid rgba(100, 100, 102, 0.322);
+}
+.contactword{
+  font-size: 30rpx;
+  color: rgb(75, 76, 107);
+  float: left;
+}
+#kefu{
+  margin-right: 50rpx;
+  margin-top: 5rpx;
+  float: right;
+}
+
+#welcome{
+  height: 50rpx;
+  font-size: 30rpx;
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
+  margin-top: 80rpx;
+  color: rgb(121, 121, 121);
+}
+#yep{
+  color: rgb(20, 20, 20);
+  margin-top: -10rpx;
+}
+#qyjbq{
+  position: relative;
+  margin-top: 50rpx;
+}
+
+#bottom{
+  position: fixed;
+  bottom: 0rpx;
+  width: 100%;
+  height: 100rpx;
+  background-color: #E9F2FA;
+}
+.li_func{
+  float: left;
+  margin-left: 20%;
+  margin-top: 25rpx;
+  height: 50rpx;
+  width: 50rpx;
+}
+.bottom_icon{
+  height: 100%;
+  width: 100%;
+  float: left;
+}
+.icon_image{
+  width: 100%;
+  height: 100%;
+}
+
+#fbutton{
+  position: fixed;
+  border-top: 1rpx solid rgb(145, 143, 163);
+  bottom: 0rpx;
+  width: 100%;
+  height: 85rpx;
+  background-color: rgb(247, 247, 247);
+  color:  rgb(145, 143, 163);
+}
+.fkword{
+  font-size: 20rpx;
+}
+.iicon{
+  height: 60rpx;
+}
+#icon1{
+  margin-top: -12rpx;
+  position: fixed;
+  margin-left: 16.3%;
+}
+#fk1{
+  margin-left: 8rpx;
+  margin-top: -28rpx;
+}
+#icon2{
+  margin-top: -21rpx;
+  position: fixed;
+  margin-left: 235rpx;
+  display: none;
+}
+#fk2{
+  margin-left: -2rpx;
+  margin-top: -36rpx;
+}
+#icon3{
+  margin-top: -17rpx;
+  position: fixed;
+  margin-left: 46.4%;
+}
+#fk3{
+  margin-left: -17rpx;
+  margin-top: -22rpx;
+}
+#icon4{
+  margin-top: -16rpx;
+  margin-left: 78%;
+}
+#fk4{
+  margin-left: 19rpx;
+  margin-top: -25rpx;
+}

@@ -1,0 +1,17 @@
+<!--pages/fwsc/xssc.wxml-->
+<view class='intro'>
+  <view class='ititle'>简介</view>
+  <view class='icont'><text space='emsp'>  由某位上海奆佬制作的某小程序UI组件，本小程序开始也曾借用，然后进行了修改。和weui一样适合小白进行UI的制作参考。</text></view>
+</view>
+<view class='use'>
+  <view class='ititle'>使用</view>
+  <view wx:for="{{imgalist}}" wx:for-item="image" class="qrcode">
+    <view class='codedes'>扫码进行动态演示</view>
+    <image src="{{image}}" data-src="{{image}}" bindtap="previewImage" class='codeimg'></image>
+  </view>
+
+  <view class='website'>
+    <view class='webdes'>或前往Git进行使用</view>
+    <view class='webtext'><text selectable='true'>https://github.com/wux-weapp/wux-weapp</text></view>
+  </view>
+</view>

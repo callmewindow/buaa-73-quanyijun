@@ -1,0 +1,43 @@
+<!--pages/yjfk/yjfk.wxml-->
+<wux-toast id="wux-toast" />
+
+<view id='wtfy'>
+  <wux-cell-group title="问题反映" label=" ">
+    <wux-cell is-link extra="" bindtap="showToastfk">
+      <view class='prob'><view class='iiicon1'><text class='iconfont icon-interactive' style='color:#;font-size:50rpx;'></text></view></view>
+      <text class='yyfkword'> 问题解决公示</text>
+    </wux-cell>
+    <navigator target="miniProgram" open-type="navigate" app-id="wx8abaf00ee8c3202e" extra-data="{{ extraData }}" version="release">
+      <wux-cell is-link extra="">
+        <view class='prob'><view class='iiicon1'><text class='iconfont icon-mail' style='color:#;font-size:50rpx;'></text></view></view>
+        <text class='yyfkword'> 权益菌反馈</text>
+      </wux-cell>
+    </navigator>
+    <wux-cell>
+      <view class='wuxicon'><view class='iiicon2'><wux-icon type='ios-paw' size='25'/></view></view>
+      <text class='yyfkword'> 联系我们</text>
+      <contact-button type="default-dark" size="23" session-from="weapp" id='kefu'></contact-button>
+    </wux-cell>
+  </wux-cell-group>
+</view>
+
+
+<wux-toast id="wux-toast" />
+<view id='fbutton'>
+  <view class='iicon' id='icon1' bindtap='tohome2'>
+    <text class='iconfont icon-homepage' style='color:#;font-size:60rpx;'></text>
+    <view class='fkword' id='fk1'>首页</view>
+  </view>
+  <view class='iicon' id='icon2' bindtap="showToastjl">
+    <text class='iconfont icon-other' style='color:#;font-size:70rpx;'></text>
+    <view class='fkword' id='fk2'>使用记录</view>
+  </view>
+  <view class='iicon' id='icon3' bindtap='toqyj2'>
+    <text class='iconfont icon-group' style='color:#;font-size:60rpx;'></text>
+    <view class='fkword' id='fk3'>关于权益菌</view>
+  </view>
+  <view class='iicon' id='icon4' bindtap="tome2">
+    <text class='iconfont icon-mine' style='color:#;font-size:60rpx;'></text>
+    <view class='fkword' id='fk4'>我</view>
+  </view>
+</view>

@@ -1,0 +1,19 @@
+page{
+  height: 900rpx;
+  background-color: rgb(248, 248, 255);
+}
+#typechoose{
+  margin-top: 70rpx;
+}
+#fkcontent{
+  margin-top: 70rpx;
+}
+#person{
+  margin-top: 70rpx;
+}
+
+#sub{
+  background-color: rgba(0, 17, 255, 0.418);
+  width: 70%;
+  margin-top: 120rpx;
+}

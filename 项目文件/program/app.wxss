@@ -1,0 +1,65 @@
+/**app.wxss**/
+
+@import"weui.wxss";
+
+@font-face {
+  font-family: 'iconfont';  /* project id 821342 */
+  src: url('//at.alicdn.com/t/font_821342_737wq9gmzry.eot');
+  src: url('//at.alicdn.com/t/font_821342_737wq9gmzry.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_821342_737wq9gmzry.woff') format('woff'),
+  url('//at.alicdn.com/t/font_821342_737wq9gmzry.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_821342_737wq9gmzry.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-activity:before { content: "\e6de"; }
+
+.icon-barrage:before { content: "\e6e3"; }
+
+.icon-createtask_fill:before { content: "\e6ee"; }
+
+.icon-createtask:before { content: "\e6ef"; }
+
+.icon-document:before { content: "\e6f3"; }
+
+.icon-editor:before { content: "\e6f5"; }
+
+.icon-group:before { content: "\e6ff"; }
+
+.icon-homepage:before { content: "\e702"; }
+
+.icon-interactive:before { content: "\e704"; }
+
+.icon-mail:before { content: "\e70a"; }
+
+.icon-mine:before { content: "\e70e"; }
+
+.icon-order:before { content: "\e713"; }
+
+.icon-other:before { content: "\e714"; }
+
+.icon-prompt:before { content: "\e71b"; }
+
+.icon-questions:before { content: "\e75f"; }
+
+
+
+
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+

@@ -1,0 +1,21 @@
+page{
+  height: 1700rpx;
+  background-color: rgb(251, 254, 255);
+}
+#infor{
+  margin-top: 50rpx;
+}
+#timetime{
+  margin-top: 50rpx;
+}
+#yppt{
+  margin-top: 50rpx;
+}
+#describe{
+  margin-top: 50rpx;
+}
+#sub{
+  background-color: rgba(0, 17, 255, 0.418);
+  width: 70%;
+  margin-top: 50rpx;
+}

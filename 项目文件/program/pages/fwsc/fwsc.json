@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "服务手册",
+  "usingComponents": {
+    "wux-tabs": "../../dist/tabs/index",
+    "wux-tab": "../../dist/tab/index",
+    "wux-icon": "../../dist/icon/index",
+    "wux-toast": "../../dist/toast/index"
+  }
+}

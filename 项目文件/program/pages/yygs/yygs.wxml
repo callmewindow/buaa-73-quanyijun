@@ -1,0 +1,27 @@
+<view class='body'>
+  <view class='title'>
+    <view class='titletext'>今日预约情况</view>
+    <view class='time'>{{today}}</view>
+  </view>
+  <view class='fenge'></view>
+  <view class='content'>
+    <view class='time1'>18:00-19:00:未预约;</view>
+    <view class='time2'>19:00-20:00:未预约;</view>
+    <view class='time3'>20:00-21:00:未预约;</view>
+    <view class='time4'>21:00-22:00:未预约;</view>
+  </view>
+</view>
+
+<view class='body'>
+  <view class='title'>
+    <view class='titletext'>明日预约情况</view>
+    <view class='time'>{{tomorrow}}</view>
+  </view>
+  <view class='fenge'></view>
+  <view class='content'>
+    <view class='time1'>18:00-19:00:未预约;</view>
+    <view class='time2'>19:00-20:00:未预约;</view>
+    <view class='time3'>20:00-21:00:未预约;</view>
+    <view class='time4'>21:00-22:00:未预约;</view>
+  </view>
+</view>

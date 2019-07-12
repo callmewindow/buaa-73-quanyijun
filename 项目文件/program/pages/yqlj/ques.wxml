@@ -1,0 +1,12 @@
+<!--pages/fwsc/xssc.wxml-->
+<view class='intro'>
+  <view class='ititle'>简介</view>
+  <view class='icont'><text space='emsp'>  同样由咱们学长制作的一个题库，包含航概，军理，四级，程设等题目，超绝好用就对了。</text></view>
+</view>
+<view class='use'>
+  <view class='ititle'>使用</view>
+  <view class='website'>
+    <view class='webdes'>复制以下网址打开即可</view>
+    <view class='webtext'><text selectable='true'>questionor.cn</text></view>
+  </view>
+</view>

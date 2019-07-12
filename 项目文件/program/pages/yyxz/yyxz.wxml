@@ -1,0 +1,23 @@
+<view id='xz1'>
+  <image src='../../image/backgroundmobile.png' class='beijing'></image>
+  <view class='title'>预约你要晓得的事</view>
+  <view class='passage'>
+    <view class='pword'>1.如何预约见"73°预约"</view>
+    <view class='pword'>2.空间不大，人数最好少于30</view>
+    <view class='pword'>3.周围寝室有同学，请注意控制声音大小</view>
+    <view class='pword'>4.空间很容易脏，请把垃圾带走</view>
+    <view class='pword'>5.大家使用结束后请将桌椅大致归位</view>
+    <view class='pword'>6.时间太晚请在走前关灯</view>
+  </view>
+</view>
+<view id='xz2'>
+  <image src='../../image/backgroundmobile.png' class='beijing'></image>
+  <view class='title'>使用打印机你要晓得的事</view>
+  <view class='passage'>
+    <view class='pword'>1.道具使用见"73°功能介绍"</view>
+    <view class='pword'>2.空间网络不好，驱动最好在寝室下好</view>
+    <view class='pword'>3.纸张自带，建议多拿，别忘拿走</view>
+    <view class='pword'>4.打印机无法工作，请联系权益部干事</view>
+    <view class='pword'>5.打印张数限50张，为了书院的同学，请大家控制打印的量</view>
+  </view>
+</view>

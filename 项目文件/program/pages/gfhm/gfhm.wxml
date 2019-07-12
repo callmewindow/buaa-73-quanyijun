@@ -1,0 +1,102 @@
+
+<view id='title'>沙河校区各部门办公电话</view>
+<view class='hang'>
+  <view class='hang1'>单位</view>
+  <view class='hang2'>电话</view>
+</view>
+<view class='hang'>
+  <view class='hang1'>沙河校区管委会办公室</view>
+  <view class='hang2'><text selectable='true'>61716606</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>教务部</view>
+  <view class='hang2'><text selectable='true'>61716703</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>学生发展服务中心</view>
+  <view class='hang2'><text selectable='true'>61716803/6804</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>团工委</view>
+  <view class='hang2'><text selectable='true'>61716805/6806</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>安保部</view>
+  <view class='hang2'><text selectable='true'>61716000</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>后勤保障服务中心办公室</view>
+  <view class='hang2'><text selectable='true'>61716902</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>后勤服务中心</view>
+  <view class='hang2'><text selectable='true'>61716171</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>大学生活动中心</view>
+  <view class='hang2'><text selectable='true'>61716890</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>优购超市</view>
+  <view class='hang2'><text selectable='true'>61716973</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>图书馆</view>
+  <view class='hang2'><text selectable='true'>61716691</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>医务室</view>
+  <view class='hang2'><text selectable='true'>61716980</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>网络服务室</view>
+  <view class='hang2'><text selectable='true'>61716990</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>北航学院综合办公室</view>
+  <view class='hang2'><text selectable='true'>61716569</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>北航学院学生部</view>
+  <view class='hang2'><text selectable='true'>61716570</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>北航学院教学部</view>
+  <view class='hang2'><text selectable='true'>61716572</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>士谔书院</view>
+  <view class='hang2'><text selectable='true'>61716580</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>冯如书院</view>
+  <view class='hang2'><text selectable='true'>61716582</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>士嘉书院</view>
+  <view class='hang2'><text selectable='true'>61716584</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>守锷书院</view>
+  <view class='hang2'><text selectable='true'>61716586</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>致真书院</view>
+  <view class='hang2'><text selectable='true'>61716588</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>知行书院</view>
+  <view class='hang2'><text selectable='true'>61716590</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>飞行学院</view>
+  <view class='hang2'><text selectable='true'>61716506</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>空间与环境学院</view>
+  <view class='hang2'><text selectable='true'>61716671</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>汇融书院</view>
+  <view class='hang2'><text selectable='true'>61716864</text></view>
+</view>

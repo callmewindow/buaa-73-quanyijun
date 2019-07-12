@@ -1,0 +1,37 @@
+page{
+  display: block;
+  height: 1400rpx;
+  background-color: rgb(251, 254, 255);
+}
+#bgimg{
+  width: 1100rpx;
+  height: 110%;
+  z-index: -1;
+  position: fixed;
+  margin-left: -10rpx;
+}
+#title{
+  width: 100%;
+  text-align: center;
+  height: 100rpx;
+  font-size: 50rpx;
+  padding-top: 20rpx;
+}
+.hang{
+  width: 100%;
+  font-size: 30rpx;
+  text-align: center;
+}
+.hang1{
+  width: 45%;
+  height: 45rpx;
+  float: left;
+  border: 1rpx solid black;
+  margin-left: 50rpx;
+}
+.hang2{
+  width: 45%;
+  height: 45rpx;
+  float: left;
+  border:1rpx solid black;
+}

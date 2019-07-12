@@ -1,0 +1,3 @@
+<view id='top'>权心权意</view>
+<view animation="{{animationData}}" id="icon"><image src='../../image/shie.png' id='iconicon'></image></view>
+<view id='bottom'>全心为你</view>

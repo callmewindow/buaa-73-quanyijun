@@ -1,0 +1,112 @@
+
+<view id='outline'>
+<swiper id="swiper" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" current="{{current}}" bindchange="swiperChange" indicator-dots="{{indicatordots}}">
+ <block wx:for="{{datalist}}">
+ <swiper-item>
+  <image id="image" src="{{item.img}}" class="slide-image" bindtap='{{item.to}}'/>
+ </swiper-item>
+ </block>
+</swiper>
+  <!-- <view class="tapNav">
+  <view class="{{tabArr.tabCurrentIndex==0?'active':''}}" data-index="0" bindtap="veHandle">
+      <view class='adtext' bindtap='toad1'>查看详情</view>
+  </view>
+  <view class="{{tabArr.tabCurrentIndex==1?'active':''}}" data-index="1" bindtap="veHandle">
+      <view class='adtext' bindtap='toad2'>查看详情</view>
+  </view>
+  <view class="{{tabArr.tabCurrentIndex==2?'active':''}}" data-index="2" bindtap="veHandle">
+      <view class='adtext' bindtap='toad3'>查看详情</view>
+  </view>
+  </view> -->
+</view>
+<view id='allfunction' style='display:{{allf}}'>
+<image src='../../image/first.png' id='bgimg'></image>
+<navigator url='../kjyy/kjyy'>
+  <view class='funcpart' id='kjyy'>
+    <view id='kjyyn'>
+      <view id='kjyyi'> <wux-icon type='ios-jet' size='50'/></view>
+      <view id='kjyyt'>空间使用</view>
+    </view>
+  </view>
+</navigator>
+<navigator url='../syhd/syhd'>
+  <view class='funcpart' id='syhd'>
+    <view id='syhdn'>
+      <image id='syhdi' src='../../image/shie.png'></image>
+      <view id='syhdt1'>书院活动</view>
+    </view>
+  </view>
+</navigator>
+<navigator url='../xxcx/xxcx'>
+  <view class='funcpart' id='fwsc'>
+    <view id='fwscn'>
+      <view id='fwsci'>
+      <wux-icon type='ios-git-commit' size='25' />
+      <wux-icon type='ios-git-commit' size='25' />
+      <wux-icon type='ios-git-commit' size='25' />
+      </view>
+      <view id='fwsct'>信息查询</view>
+    </view>
+  </view>
+</navigator>
+<!-- <navigator url='../yjfk/yjfk'> -->
+<navigator target="miniProgram" open-type="navigate" app-id="wx8abaf00ee8c3202e" extra-data="{{ extraData }}" version="release">
+  <view class='funcpart' id='yjfk'>
+    <view id='yjfkn'>
+      <view id='yjfki'><wux-icon type='ios-mail' size='40' /></view>
+      <view id='yjfkt'>反馈</view>
+    </view>
+  </view>
+</navigator>
+</view>
+
+<view id='center' style='display:{{cenf}}'>
+<navigator url='../kjyy/kjyy'>
+  <view class='big_func'><text space='nbsp'>空 间</text></view>
+</navigator>
+<navigator url='../syhd/syhd'>
+  <view class='big_func'><text space='nbsp'>活 动</text></view>
+</navigator>
+<navigator url='../xxcx/xxcx'>
+  <view class='big_func'><text space='nbsp'>信 息</text></view>
+</navigator>
+<!-- <navigator url='../yjfk/yjfk'> -->
+<navigator target="miniProgram" open-type="navigate" app-id="wx8abaf00ee8c3202e" extra-data="{{ extraData }}" version="release">
+  <view class='big_func' id='func_b'><text space='nbsp'>反 馈</text></view>
+</navigator>
+</view>
+
+<view id='bottom'>
+  <view  class='li_func' id='home'>
+    <view class='bottom_icon'><image src='{{homeimg}}' class='icon_image'></image></view>
+  </view>
+  <view class='li_func' id='alert' bindtap='toqyj'>
+    <view class='bottom_icon'><image src='{{alertimg}}' class='icon_image'></image></view>
+  </view>
+  <view class='li_func' id='identity' bindtap='tome'>
+    <view class='bottom_icon'><image src='{{identityimg}}' class='icon_image'></image></view>
+  </view>
+</view>
+
+<view id='change' bindtap='changeui'><wux-icon type='ios-paw' size='20' /></view>
+
+<wux-toast id="wux-toast" />
+
+<!-- <view id='fbutton'>
+  <view class='iicon' id='icon1'>
+    <text class='iconfont icon-homepage' style='color:#;font-size:60rpx;'></text>
+    <view class='fkword' id='fk1'>首页</view>
+  </view>
+  <view class='iicon' id='icon2' bindtap="showToastjl">
+    <text class='iconfont icon-other' style='color:#;font-size:70rpx;'></text>
+    <view class='fkword' id='fk2'>使用记录</view> 
+  </view>
+  <view class='iicon' id='icon3' bindtap='toqyj'>
+    <text class='iconfont icon-group' style='color:#;font-size:60rpx;'></text>
+    <view class='fkword' id='fk3'>关于权益菌</view>
+  </view>
+  <view class='iicon' id='icon4' bindtap='tome'>
+    <text class='iconfont icon-mine' style='color:#;font-size:60rpx;'></text>
+    <view class='fkword' id='fk4'>我</view>
+  </view>
+</view> -->

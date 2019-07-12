@@ -1,0 +1,17 @@
+<!--pages/fwsc/xssc.wxml-->
+<view class='intro'>
+  <view class='ititle'>简介</view>
+  <view class='icont'><text space='emsp'>  微信官方提供的UI组件，适合小白参考使用。</text></view>
+</view>
+<view class='use'>
+  <view class='ititle'>使用</view>
+  <view wx:for="{{imgalist}}" wx:for-item="image" class="qrcode">
+    <view class='codedes'>扫码进行动态演示</view>
+    <image src="{{image}}" data-src="{{image}}" bindtap="previewImage" class='codeimg'></image>
+  </view>
+
+  <view class='website'>
+    <view class='webdes'>或前往Git进行使用</view>
+    <view class='webtext'><text selectable='true'>https://github.com/Tencent/weui</text></view>
+  </view>
+</view>

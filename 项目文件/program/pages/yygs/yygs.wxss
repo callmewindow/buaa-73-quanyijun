@@ -1,0 +1,76 @@
+/* pages/yygs/yygs.wxss */
+page{
+  display: block;
+  background-color: rgb(247, 247, 247);
+}
+.body{
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 20rpx;
+  border: 3rpx solid rgba(128, 128, 128, 0.438);
+  height: 350rpx;
+  margin-top: 120rpx;
+  background-color: white;
+}
+.title{
+  font-size: 30rpx;
+  height: 50rpx;
+  width: 100%;
+}
+.titletext{
+  margin-left: 30rpx;
+  float: left;
+  font-size: 40rpx;
+  margin-top: 10rpx;
+}
+.time{
+  float: left;
+  margin-left: 200rpx;
+  color: gray;
+  margin-top: 20rpx;
+}
+.fenge{
+  border: 0.5rpx solid rgba(128, 128, 128, 0.479);
+  width: 100%;
+  margin-top: 40rpx;
+}
+.content{
+  width: 100%;
+  height: 250rpx;
+}
+.time1{
+  font-size: 35rpx;
+  color: gray;
+  width: 47%;
+  float: left;
+  height: 80rpx;
+  padding-top: 20rpx;
+  margin-left: 20rpx;
+  margin-top: 30rpx;
+}
+.time2{
+  font-size: 35rpx;
+  color: gray;
+  width: 47%;
+  float: left;
+  height: 80rpx;
+  padding-top: 20rpx;
+  margin-top: 30rpx;
+}
+.time3{
+  font-size: 35rpx;
+  color: gray;
+  width: 47%;
+  float: left;
+  height: 80rpx;
+  padding-top: 20rpx;
+  margin-left: 20rpx;
+}
+.time4{
+  font-size: 35rpx;
+  color: gray;
+  width: 47%;
+  float: left;
+  height: 80rpx;
+  padding-top: 20rpx;
+}

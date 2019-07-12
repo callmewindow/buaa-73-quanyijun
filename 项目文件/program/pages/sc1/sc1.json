@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "1：新生须知",
+  "usingComponents": {
+    "wux-icon": "../../dist/icon/index"
+  }
+}

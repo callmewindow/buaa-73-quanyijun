@@ -1,0 +1,40 @@
+
+page{
+  background-color: rgb(251, 254, 255);
+  position: fixed;
+}
+.intro{
+  width: 90%;
+  margin-left: 5%;
+  height: 200rpx;
+  margin-top: 150rpx;
+}
+.ititle{
+  font-size: 40rpx;
+  text-align: center;
+  font-weight: bold;
+}
+.icont{
+  margin-top: 20rpx;
+  font-size: 30rpx;
+  text-align: left;
+}
+.use{
+  margin-top: 150rpx;
+}
+.website{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 20rpx;
+}
+.webdes{
+  text-align: center;
+  font-size: 35rpx;
+  width: 100%;
+}
+.webtext{
+  width: 100%;
+  text-align: center;
+  font-size: 30rpx;
+  color: rgb(110, 147, 201);
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "活动",
+  "usingComponents": {
+    "wux-toast": "../../dist/toast/index",
+    "wux-icon": "../../dist/icon/index",
+    "wux-cell-group": "../../dist/cell-group/index",
+    "wux-cell": "../../dist/cell/index"
+  }
+}

@@ -1,0 +1,72 @@
+<!--pages/fwsc/fwsc.wxml-->
+<wux-toast id="wux-toast" />
+<image src='../../image/fwscfm.png' id='bgimg'></image>
+<view id='all'>
+  <view id='service'>
+  <wux-tabs auto="{{ false }}" scroll current="{{ current }}" bindchange="onChange">
+    <view id='t1' bindtap='find1'><wux-tab key="tab1"><text class='scword'>手册简介</text></wux-tab></view>
+    <view id='t2' bindtap='find2'><wux-tab key="tab2"><text class='scword'>获取全文</text></wux-tab></view>
+    <view id='t3' bindtap='find3'><wux-tab key="tab3"><text class='scword'>部分阅读</text></wux-tab></view>
+  </wux-tabs>
+  </view>
+</view>
+
+<view class='test' style='display:{{dis1}};'>
+  <view class='zuo'>
+    <view class='li_title'>关于服务手册</view>
+    <view class='li_content'>
+      <text space='emsp' selectable='true' class='tcontent'>  本手册旨在解决同学们在日常生活中遇到的一些基本问题，为每一个士谔学子提供最方便快捷的解决问题的方法。\n  我们从学习、生活、事务办理、常用信息等多个方面为大家提供比较基础且有帮助的信息，信息来源相当的广泛。\n  迄今为止手册已历经两次修订，但由于相关信息的快速调整，手册信息可能和实际情况有些出入，并且其包含的信息也可能不够全面，大家都可以及时向我们反馈，来方便更多的同学获得正确的信息。
+      </text>
+    </view>
+  </view>
+</view>
+<view class='test' style='display:{{dis2}};'>
+  <view class='zuo'>
+    <view class='li_title2'>有以下几种方法可以获得</view>
+    <view class='liebiao'>
+      <view class='lbname' bindtap='out1' id='head'>1.扫码进入网盘获取<wux-icon type='ios-arrow-down' size='20' class='tiicon' /></view>
+        <view style='display:{{con1}};'><image src="{{image}}" data-src="{{image}}" bindtap="previewImage" class='lbcon1'></image></view>
+      <view class='lbname' bindtap='out2'>2.公众号后台回复<wux-icon type='ios-arrow-down' size='20' class='tiicon' /></view>
+        <view class='lbcon2' style='display:{{con2}};'>后台回复“服务手册”<wux-icon type='ios-arrow-forward' size='20' class='tiicon' /></view>
+      <view class='lbname' bindtap='out3'>3.联系客服自取<wux-icon type='ios-arrow-down' size='20' class='tiicon' /></view>
+        <view class='lbcon3' style='display:{{con3}};'>
+          联系我们
+          <contact-button type="default-dark" size="23" session-from="weapp" id='kefu'></contact-button>
+        </view>
+    </view>
+  </view>
+</view>
+<view class='test' style='display:{{dis3}};'>
+  <view class='zuo'>
+  <navigator url=''>
+    <view class='part' id='head2' bindtap='disable'>
+      <view class='tname'><wux-icon type='ios-bulb' size='30' class='picon'/> 新生须知</view>
+    </view>
+  </navigator>
+  <navigator url=''>
+    <view class='part' bindtap='disable'>
+      <view class='tname'><wux-icon type='ios-fitness' size='30' class='picon'/> 生活助手</view>
+    </view>
+  </navigator>
+  <navigator url=''>
+    <view class='part' bindtap='disable'>
+      <view class='tname'><wux-icon type='ios-albums' size='30' class='picon'/> 证通人和</view>
+    </view>
+  </navigator>
+  <navigator url=''>
+    <view class='part' bindtap='disable'>
+      <view class='tname'><wux-icon type='ios-body' size='30' class='picon'/> 学习帮助</view>
+    </view>
+  </navigator>
+  <navigator url=''>
+    <view class='part' bindtap='disable'>
+      <view class='tname'><wux-icon type='ios-construct' size='30' class='picon'/> 科技创新</view>
+    </view>
+  </navigator>
+  <navigator url=''>
+    <view class='part' bindtap='disable'>
+      <view class='tname'><wux-icon type='ios-code-working' size='30' class='picon'/> 其他</view>
+    </view>
+  </navigator>
+  </view>
+</view>

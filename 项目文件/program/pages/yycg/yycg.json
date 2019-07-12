@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "skrskr",
+  "usingComponents": {
+    "wux-icon": "../../dist/icon/index"
+  }
+}

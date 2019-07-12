@@ -1,0 +1,23 @@
+page{
+  display: block;
+  background-color: rgb(247, 247, 247);
+}
+.bdc{
+  height: 700rpx;
+  margin-left: 30rpx;
+  border: 1rpx solid balck;
+  margin-top: 50rpx;
+}
+.bdcimg{
+  width: 700rpx;
+  height: 950rpx;
+  border-radius: 10rpx;
+}
+#bgimg{
+  width: 1100rpx;
+  height: 110%;
+  z-index: -1;
+  position: fixed;
+  margin-left: -10rpx;
+  margin-top: -50rpx;
+}
