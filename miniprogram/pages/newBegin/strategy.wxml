@@ -1,0 +1,6 @@
+<view wx:for="{{imgalist}}" wx:for-item="image" class="function">
+  <view class='title'>扫描下方二维码 获取你的</view>
+  <view class='title'>学院路“最强”攻略</view>
+  <view id='hint'>（可能需要加载一会儿）</view>
+	<image src="{{image}}" data-src="{{image}}" bindtap="previewImage" class='yyimg'></image>
+</view>

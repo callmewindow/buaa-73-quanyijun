@@ -1,0 +1,12 @@
+/* pages/chatbot/chatbot.wxss */
+#function{
+  padding: 10rpx;
+  height: auto;
+  top:20rpx;
+  right: 20rpx;
+  position: absolute;
+  z-index: 10;
+  text-align: center;
+  background-color: rgba(251, 254, 255, 0.9);
+  border-radius: 10rpx;
+}

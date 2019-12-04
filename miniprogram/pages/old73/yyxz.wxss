@@ -1,0 +1,49 @@
+page{
+  background-color: rgb(251, 254, 255);
+}
+.beijing{
+  width: 90%;
+  height: 450rpx;
+  z-index: -1;
+  position: fixed;
+  border-radius: 15rpx;
+  opacity: 0.5;
+}
+#xz1{
+  height: 450rpx;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 40rpx;
+  position: fixed;
+}
+#xz2{
+  height: 450rpx;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 540rpx;
+  position: fixed;
+}
+.title{
+  width: 100%;
+  height: 45rpx;
+  text-align: center;
+  font-size: 40rpx;
+  float: left;
+  margin-top: 20rpx;
+}
+.passage{
+  width: 90%;
+  height: 400rpx;
+  text-align: left;
+  float: left;
+  margin-top: 30rpx;
+  margin-left: 5%;
+}
+.pword{
+  font-size: 30rpx;
+  width: 90%;
+  float: left;
+  margin-left: 10%;
+  height: 40rpx;
+  margin-top: 10rpx;
+}

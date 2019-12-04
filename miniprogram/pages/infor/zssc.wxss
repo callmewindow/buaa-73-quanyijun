@@ -1,0 +1,30 @@
+/* pages/jxyy/lsyy.wxss */
+page{
+  background-color: rgb(251, 254, 255);
+}
+.function{
+  width: 90%;
+  height: 600rpx;
+  margin-left: 5%;
+  margin-top: 120rpx;
+  position: fixed;
+}
+.title{
+  font-size: 35rpx;
+  width: 100%;
+  text-align: center;
+  color: rgb(73, 73, 73);
+}
+.yyimg{
+  width: 500rpx;
+  height: 500rpx;
+  margin-left: 80rpx;
+  margin-top: 50rpx;
+}
+#hint{
+  width: 100%;
+  color: gray;
+  font-size: 27rpx;
+  text-align: center;
+  margin-top: 0rpx;
+}

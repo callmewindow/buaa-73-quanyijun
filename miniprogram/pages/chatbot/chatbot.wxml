@@ -1,0 +1,21 @@
+<view id='function'>
+  <view id='options' bindtap='showFunction'>
+    <wux-icon type='md-options' size='30' />
+  </view>
+  <view wx-if="{{functionShow}}" id="functions">
+  
+    <view id='voice' bindtap='changeVoice'>
+      <wux-icon type='{{voice}}' size='25' />
+    </view>
+    <view id='record' bindtap='clearWindow'>
+      <wux-icon type='ios-refresh' size='{{refreshSize}}' />
+    </view>
+    <view id='voice' bindtap='backToNow'>
+      <wux-icon type='md-arrow-dropdown' size='30' />
+    </view>
+
+  </view>
+</view>
+<view style="height: 100vh">
+    <chat bind:backHome="goBackHome" bind:queryCallback="getQueryCallback" bind:openWebview="openWebview" bind:openMiniProgram="openMiniProgram" />
+</view>

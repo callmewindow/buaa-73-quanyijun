@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "校园",
+  "usingComponents": {
+    "wux-cell-group": "../../dist/cell-group/index",
+    "wux-cell": "../../dist/cell/index",
+    "wux-icon": "../../dist/icon/index",
+    "wux-toast": "../../dist/toast/index"
+  }
+}

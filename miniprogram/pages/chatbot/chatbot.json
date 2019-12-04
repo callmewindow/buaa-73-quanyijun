@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "wux-icon": "../../dist/icon/index",
+    "chat": "plugin://chatbot/chat"
+  }
+}

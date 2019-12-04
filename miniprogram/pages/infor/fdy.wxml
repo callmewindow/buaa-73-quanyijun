@@ -1,0 +1,71 @@
+
+<view id='title'>士谔书院辅导员号码公示</view>
+<!-- <view class='hang_title'>
+  <view class='hang1_title'>姓名</view>
+  <view class='hang2_title'>电话</view>
+</view> -->
+<view id='title_li'>执行院长</view>
+<view class='hang'>
+  <view class='hang1'>刘科生（刘导）</view>
+  <view class='hang2'><text selectable='true'>13810025208</text></view>
+</view>
+<view id='title_li'>辅导员们</view>
+<view class='hang'>
+  <view class='hang1'>陈伟东（陈导）</view>
+  <view class='hang2'><text selectable='true'>13581542686</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>孙泽斌（孙导）</view>
+  <view class='hang2'><text selectable='true'>13466389807</text></view>
+</view>
+<view id='title_li'>2017级 SKY</view>
+<view class='hang'>
+  <view class='hang1'>申泽鹏（申导 S）</view>
+  <view class='hang2'><text selectable='true'>15300249345</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>王嘉凯（凯导 K）</view>
+  <view class='hang2'><text selectable='true'>13021211836</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>费心怡（费导 Y）</view>
+  <view class='hang2'><text selectable='true'>18694024496</text></view>
+</view>
+<view id='title_li'>2018级 北京小吃</view>
+<view class='hang'>
+  <view class='hang1'>李何贝子（贝导 北）</view>
+  <view class='hang2'><text selectable='true'>13121265916</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>刘泽京（京导 京）</view>
+  <view class='hang2'><text selectable='true'>13121273361</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>侯晓鹏（侯导 小）</view>
+  <view class='hang2'><text selectable='true'>13121216926</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>柴源（柴导 吃）</view>
+  <view class='hang2'><text selectable='true'>13121267769</text></view>
+</view>
+<view id='title_li'>2019级 零度柠汁</view>
+<view class='hang'>
+  <view class='hang1'>李舒婷（婷导）</view>
+  <view class='hang2'><text selectable='true'>15652578307</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>孙龙（龙导 零）</view>
+  <view class='hang2'><text selectable='true'>15811599533</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>王丹（丹导 度）</view>
+  <view class='hang2'><text selectable='true'>18810098481</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>张凯宁（宁导 柠）</view>
+  <view class='hang2'><text selectable='true'>18531889985</text></view>
+</view>
+<view class='hang'>
+  <view class='hang1'>杨政智（智导 汁）</view>
+  <view class='hang2'><text selectable='true'>17710622903</text></view>
+</view>

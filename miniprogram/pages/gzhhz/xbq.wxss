@@ -1,0 +1,45 @@
+
+.gzh_img{
+  width: 200rpx;
+  height: 200rpx;
+  margin-top: 120rpx;
+  margin-left: 278rpx;
+}
+.gzh_image{
+  height: 100%;
+  width: 100%;
+}
+.gzh_name{
+  width: 100%;
+  font-size: 35rpx;
+  text-align: center;
+  margin-top: 50rpx;
+}
+.gzh_num{
+  width: 100%;
+  font-size: 30rpx;
+  text-align: center;
+  margin-top: 5rpx;
+}
+.gzh_intro{
+  width: 650rpx;
+  font-size: 35rpx;
+  text-align: center;
+  margin-left: 50rpx;
+  margin-top: 90rpx;
+}
+.gzh_alert{
+  width: 550rpx;
+  font-size: 30rpx;
+  text-align: center;
+  color: gray;
+  margin-top: 70rpx;
+  margin-left: 100rpx;
+}
+.plus{
+  width: 100%;
+  color: gray;
+  font-size: 22rpx;
+  text-align: center;
+  margin-top: -7rpx;
+}

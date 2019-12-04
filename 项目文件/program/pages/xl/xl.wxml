@@ -1,5 +1,0 @@
-
-
-<view wx:for="{{imgalist}}" wx:for-item="image" class="xl">
-	<image src="{{image}}" data-src="{{image}}" bindtap="previewImage" class='xlimg'></image>
-</view>

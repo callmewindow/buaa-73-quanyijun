@@ -1,0 +1,220 @@
+
+<view id='student'>
+  <wux-cell-group title="学生服务" label=" ">
+  <navigator target="miniProgram" open-type="navigate" app-id="wxf68a40a9f57c8f3f" path="pages/service/service" extra-data="{{ extraData }}" version="release">
+    <wux-cell is-link extra="">
+      <view class='gftz'><view class='iiicon2'><wux-icon type='ios-star' size='23'/></view></view>
+      <text class='xxcxword'> 官方服务页面跳转</text>
+    </wux-cell>
+  </navigator>
+  </wux-cell-group>
+</view>
+
+<view class='part_title' style='margin-top:0rpx;'>链接统计（下滑有更多）</view>
+<scroll-view scroll-y class='part_scr' scroll-with-animation='true'>
+<view class='part_lj'>
+  <view class='part_act'>
+  <navigator url='../gflj/bhyp'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-cube' size='30' color=''/></view>
+      <view class='act_name'>北航云盘</view>
+    </view>
+  </navigator>
+  <navigator url='../gflj/ihome'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-cube' size='30' color=''/></view>
+      <view class='act_name'>..ihome..</view>
+    </view>
+  </navigator>
+  <navigator url='../gflj/kczx'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-cube' size='30' color=''/></view>
+      <view class='act_name'>课程中心</view>
+    </view>
+  </navigator>
+  <navigator url='../gflj/bykt'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-cube' size='30' color=''/></view>
+      <view class='act_name'>博雅课程</view>
+    </view>
+  </navigator>
+  <navigator url='../gflj/zybj'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-cube' size='30' color=''/></view>
+      <view class='act_name'>志愿北京</view>
+    </view>
+  </navigator>
+  <navigator url='../gflj/tccx'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-cube' size='30' color=''/></view>
+      <view class='act_name'>体测查询</view>
+    </view>
+  </navigator>
+  <navigator url='../gflj/bhnw'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-cube' size='30' color=''/></view>
+      <view class='act_name'>北航内网</view>
+    </view>
+  </navigator>
+  <navigator url='../gflj/jww'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-cube' size='30' color=''/></view>
+      <view class='act_name'>..教务网..</view>
+    </view>
+  </navigator>
+  <navigator url='../gflj/cwc'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-cube' size='30' color=''/></view>
+      <view class='act_name'>..财务处..</view>
+    </view>
+  </navigator>
+  <navigator url='../gflj/bhyx'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-cube' size='30' color=''/></view>
+      <view class='act_name'>北航邮箱</view>
+    </view>
+  </navigator>
+  <navigator url='../gflj/wlsy1'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-cube' size='30' color=''/></view>
+      <view class='act_name'>实验(大一)</view>
+    </view>
+  </navigator>
+  <navigator url='../gflj/wlsy2'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-cube' size='30' color=''/></view>
+      <view class='act_name'>实验(大二)</view>
+    </view>
+  </navigator>
+  </view>
+</view>
+</scroll-view>
+
+<view class='part_title' style='margin-top:30rpx;'>公众号汇总（同上）</view>
+<scroll-view scroll-y class='part_scr2' scroll-with-animation='true'>
+<view class='part_gzh'>
+  <view class='part_act'>
+  <navigator url='../gzhhz/bh'>
+    <view class='act_content2'>
+      <view class='act_img'><image src='../../image/bh.png' class='act_image'></image></view>
+      <view class='act_name'>北航官方</view>
+    </view>
+  </navigator>
+  <navigator url='../gzhhz/wyhy'>
+    <view class='act_content2'>
+      <view class='act_img'><image src='../../image/wyhy.png' class='act_image'></image></view>
+      <view class='act_name'>微言航语</view>
+    </view>
+  </navigator>
+  <navigator url='../gzhhz/zxzh'>
+    <view class='act_content2'>
+      <view class='act_img'><image src='../../image/zxzh.png' class='act_image'></image></view>
+      <view class='act_name'>知心助航</view>
+    </view>
+  </navigator>
+  <navigator url='../gzhhz/sesy'>
+    <view class='act_content2'>
+      <view class='act_img'><image src='../../image/shie.png' class='act_image'></image></view>
+      <view class='act_name'>士谔书院</view>
+    </view>
+  </navigator>
+  <navigator url='../gzhhz/sxh'>
+    <view class='act_content2'>
+      <view class='act_img'><image src='../../image/sxh.png' class='act_image'></image></view>
+      <view class='act_name'>..士小荟..</view>
+    </view>
+  </navigator>
+  <navigator url='../gzhhz/xbq'>
+    <view class='act_content2'>
+      <view class='act_img'><image src='../../image/xbq.png' class='act_image'></image></view>
+      <view class='act_name'>新北社区</view>
+    </view>
+  </navigator>
+  </view>
+</view>
+</scroll-view>
+
+<view id='public'>
+  <wux-cell-group title="信息公布" label=" ">
+  <!-- <navigator url='../gfhm/gfhm'>
+    <wux-cell is-link extra="">
+      <view class='infor' id='num'><view class='iiicon2'><wux-icon type='ios-paper' size='23'/></view></view>
+      <text class='xxcxword'> 官方号码公示</text>
+    </wux-cell>
+  </navigator> -->
+  <navigator url='../infor/fdy'>
+    <wux-cell is-link extra="">
+      <view class='infor'><view class='iiicon2'><wux-icon type='ios-people' size='25'/></view></view>
+      <text class='xxcxword'> 辅导员联系方式</text>
+    </wux-cell>
+  </navigator>
+  <navigator url='../infor/xl'>
+    <wux-cell is-link extra="">
+      <view class='infor'><view class='iiicon2' id='xl'><wux-icon type='ios-calendar' size='25'/></view></view>
+      <text class='xxcxword'> 校历</text>
+    </wux-cell>
+  </navigator>
+
+    <wux-cell is-link extra="" bindtap="showbdc">
+      <view class='infor'><view class='iiicon2' id='bdc'><wux-icon type='ios-bus' size='25'/></view></view>
+      <text class='xxcxword'> 摆渡车</text>
+    </wux-cell>
+
+  </wux-cell-group>
+</view>
+
+
+<view id='sc'>
+  <wux-cell-group title="手册获取" label=" ">
+    <navigator url='../infor/xssc'>
+    <wux-cell is-link extra="">
+      <view class='wuxicon'><view class='iiicon2' id='xssc'><wux-icon type='ios-pricetags' size='25'/></view></view>
+      <text class='xxcxword'> 学生手册</text>
+    </wux-cell>
+    </navigator>
+    <navigator url='../infor/fwsc'>
+    <wux-cell is-link extra="">
+      <view class='wuxicon'><view class='iiicon2' id='fwsc'><wux-icon type='ios-pricetag' size='25'/></view></view>
+      <text class='xxcxword'> 权益服务手册</text>
+    </wux-cell>
+    </navigator>
+    <navigator url='../infor/zssc'>
+    <wux-cell is-link extra="">
+      <view class='wuxicon'><view class='iiicon2' id='fwsc'><wux-icon type='ios-pricetag' size='25'/></view></view>
+      <text class='xxcxword'> 志士手册</text>
+    </wux-cell>
+    </navigator>
+  </wux-cell-group>
+</view>
+
+<!-- <view id='bottom'>
+  <view  class='li_func' id='home' bindtap='tohome2'>
+    <view class='bottom_icon'><image src='{{homeimg}}' class='icon_image'></image></view>
+  </view>
+  <view class='li_func' id='alert' bindtap='toqyj2'>
+    <view class='bottom_icon'><image src='{{alertimg}}' class='icon_image'></image></view>
+  </view>
+  <view class='li_func' id='identity' bindtap='tome2'>
+    <view class='bottom_icon'><image src='{{identityimg}}' class='icon_image'></image></view>
+  </view>
+</view> -->
+
+<wux-toast id="wux-toast" />
+<!-- <view id='fbutton'>
+  <view class='iicon' id='icon1' bindtap='tohome2'>
+    <text class='iconfont icon-homepage' style='color:#;font-size:60rpx;'></text>
+    <view class='fkword' id='fk1'>首页</view>
+  </view>
+  <view class='iicon' id='icon2' bindtap="showToastjl">
+    <text class='iconfont icon-other' style='color:#;font-size:70rpx;'></text>
+    <view class='fkword' id='fk2'>使用记录</view>
+  </view>
+  <view class='iicon' id='icon3' bindtap='toqyj2'>
+    <text class='iconfont icon-group' style='color:#;font-size:60rpx;'></text>
+    <view class='fkword' id='fk3'>关于权益菌</view>
+  </view>
+  <view class='iicon' id='icon4' bindtap="tome2">
+    <text class='iconfont icon-mine' style='color:#;font-size:60rpx;'></text>
+    <view class='fkword' id='fk4'>我</view>
+  </view>
+</view> -->

@@ -1,6 +1,0 @@
-<view wx:for="{{imgalist}}" wx:for-item="image" class="function">
-  <view class='title'>扫描下方二维码可直接进行</view>
-  <view class='title'>73°，S7-701，j3-407，沙河主楼</view>
-  <view class='title'>等地的直接预约</view>
-	<image src="{{image}}" data-src="{{image}}" bindtap="previewImage" class='yyimg'></image>
-</view>

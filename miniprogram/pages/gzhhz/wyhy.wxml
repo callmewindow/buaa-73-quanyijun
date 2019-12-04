@@ -1,0 +1,18 @@
+<view class='gzh_img'>
+  <image src='../../image/wyhy.png' class='gzh_image'></image>
+</view>
+<view class='gzh_name' bindtap='fuzhi_name'>
+  公众号名称：{{gzhname}}
+</view>
+<view class='plus'>点击名字可自动复制到剪贴板上</view>
+<view class='gzh_num' bindtap='fuzhi_num'>
+  微信号：{{gzhnum}}
+</view>
+<view class='plus'>同上</view>
+<view class='gzh_intro'>
+  <text>将见闻变为思考，将观点化作力量，用真心感动彼此，用思想撼动世界。这里有理想、有态度、有趣味、有温度，这里满足你对北航和未来的全部渴望，这里是“微言航语”。 （主办：北京航空航天大学学生工作部）
+  </text>
+</view>
+<view class='gzh_alert'>
+  由于无法直接跳转，如有需要请点击名称或微信号，再自行搜索进行关注。
+</view>

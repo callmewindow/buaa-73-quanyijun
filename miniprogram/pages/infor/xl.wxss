@@ -1,0 +1,28 @@
+page{
+  display: block;
+  background-color: rgb(251, 254, 255);
+}
+.xl{
+  height: 900rpx;
+  width: 100%;
+  margin-top: 50rpx;
+}
+.xlimg{
+  width: 100%;
+  height: 100%;
+  border-radius: 10rpx;
+}
+.tip{
+  width: 100%;
+  color: black;
+  font-size: 32rpx;
+  text-align: center;
+  margin-top: 0rpx;
+}
+.hint{
+  width: 100%;
+  color: gray;
+  font-size: 27rpx;
+  text-align: center;
+  margin-top: -7rpx;
+}

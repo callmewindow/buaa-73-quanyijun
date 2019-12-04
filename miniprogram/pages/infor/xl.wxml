@@ -1,0 +1,5 @@
+<view wx:for="{{imgalist}}" wx:for-item="image" class="xl">
+  <view class='tip'>点击可查看清晰图片</view>
+  <view class='hint'>（可能需要加载一会儿）</view>
+	<image src="{{image}}" data-src="{{image}}" bindtap="previewImage" class='xlimg'></image>
+</view>

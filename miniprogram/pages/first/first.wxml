@@ -1,0 +1,44 @@
+
+<view id='outline'>
+<swiper id="swiper" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" current="{{current}}" bindchange="swiperChange" indicator-dots="{{indicatordots}}">
+ <block wx:for="{{datalist}}">
+ <swiper-item>
+  <image id="image" src="{{item.img}}" class="slide-image" bindtap='{{item.to}}'/>
+ </swiper-item>
+ </block>
+</swiper>
+</view>
+
+
+<view id='center' style='display:{{cenf}}'>
+<navigator url='../shieIntro/shieIntro'>
+  <view class='big_func'><text space='nbsp'>校 园</text></view>
+</navigator>
+<navigator url='../xxcx/xxcx'>
+  <view class='big_func'><text space='nbsp'>信 息</text></view>
+</navigator>
+<!-- <navigator url='../chatbot/chatbot'>
+  <view id='robot'>机器人</view>
+</navigator> -->
+<navigator url='../syhd/syhd'>
+  <view class='big_func'><text space='nbsp'>活 动</text></view>
+</navigator>
+<!-- <navigator url='../yjfk/yjfk'> -->
+<navigator target="miniProgram" open-type="navigate" app-id="wx8abaf00ee8c3202e" extra-data="{{ extraData }}" version="release">
+  <view class='big_func' id='func_b'><text space='nbsp'>反 馈</text></view>
+</navigator>
+</view>
+
+<view id='bottom'>
+  <view  class='li_func' id='home'>
+    <view class='bottom_icon'><image src='{{homeimg}}' class='icon_image'></image></view>
+  </view>
+  <view class='li_func' id='alert' bindtap='torobot'>
+    <view class='bottom_icon'>
+      <wux-icon type='logo-android' size='30' />
+    </view>
+  </view>
+  <view class='li_func' id='identity' bindtap='tome'>
+    <view class='bottom_icon'><image src='{{identityimg}}' class='icon_image'></image></view>
+  </view>
+</view>

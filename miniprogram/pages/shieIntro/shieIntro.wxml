@@ -1,0 +1,92 @@
+<!--pages/kjyy/kjyy.wxml-->
+
+<view id='newBegin'>
+  <view class='part_title' style='margin-top:0rpx;'>现在的学院路</view>
+  <wux-cell-group title=" " label=" ">
+    <wux-cell is-link extra="" bindtap="toXBQ">
+      <view class='appo'><view class='iiicon' id='kjyy'><wux-icon type='ios-paw'  size='27'/></view></view>
+      <text class='word'> 新北生活</text>
+    </wux-cell>
+    <navigator url='../newBegin/strategy'>
+    <wux-cell is-link extra="">
+      <view class='appo'><view class='iiicon' id='kjyy'><wux-icon type='ios-jet'  size='27'/></view></view>
+      <text class='word'> 学院路“最强”攻略</text>
+    </wux-cell>
+    </navigator>
+    <navigator url='../newBegin/jxl'>
+    <wux-cell is-link extra="">
+        <view class='intro'><view class='iiicon'><text class='iconfont icon-questions' style='color:#;font-size:50rpx;'></text></view></view>
+      <text class='word'> 遇见学院路——从教学楼说起</text>
+    </wux-cell>
+    </navigator>
+    <navigator url='../newBegin/ss'>
+    <wux-cell is-link extra="">
+        <view class='intro'><view class='iiicon'><text class='iconfont icon-questions' style='color:#;font-size:50rpx;'></text></view></view>
+      <text class='word'> 遇见学院路——从宿舍说起</text>
+    </wux-cell>
+    </navigator>
+    <navigator url='../newBegin/bbzb'>
+    <wux-cell is-link extra="">
+        <view class='intro'><view class='iiicon'><text class='iconfont icon-questions' style='color:#;font-size:50rpx;'></text></view></view>
+      <text class='word'> 遇见学院路——本部周边攻略</text>
+    </wux-cell>
+    </navigator>
+  </wux-cell-group>
+</view>
+
+<view id='shahe'>
+  <view class='part_title' style='margin-top:0rpx;'>沙河的过往</view>
+  <wux-cell-group title=" " label=" ">
+    <navigator url='../old73/yyxz'>
+      <wux-cell is-link extra="">
+        <view class='intro' style='display:block;'><view class='iiicon'><text class='iconfont icon-prompt' style='color:#;font-size:50rpx;'></text></view></view>
+        <text class='word'> 73°预约须知</text>
+      </wux-cell>
+    </navigator>
+    <navigator url='../old73/kjjs'>
+      <wux-cell is-link extra="">
+        <view class='intro'><view class='iiicon'><text class='iconfont icon-questions' style='color:#;font-size:50rpx;'></text></view></view>
+        <text class='word'> 书院空间简介</text>
+      </wux-cell>
+    </navigator>
+    <navigator url='../old73/gnjs'>
+     <wux-cell is-link extra="">
+       <view class='intro'><view class='iiicon' id='gnjs'><wux-icon type='ios-done-all' size='35'/></view></view>
+       <text class='word'> 73°道具使用介绍</text>
+     </wux-cell>
+    </navigator>
+  </wux-cell-group>
+</view>
+
+
+<!-- <view id='bottom'>
+  <view  class='li_func' id='home' bindtap='tohome2'>
+    <view class='bottom_icon'><image src='{{homeimg}}' class='icon_image'></image></view>
+  </view>
+  <view class='li_func' id='alert' bindtap='toqyj2'>
+    <view class='bottom_icon'><image src='{{alertimg}}' class='icon_image'></image></view>
+  </view>
+  <view class='li_func' id='identity' bindtap='tome2'>
+    <view class='bottom_icon'><image src='{{identityimg}}' class='icon_image'></image></view>
+  </view>
+</view> -->
+
+<wux-toast id="wux-toast" />
+<!-- <view id='fbutton'>
+  <view class='iicon' id='icon1' bindtap='tohome2'>
+    <text class='iconfont icon-homepage' style='color:#;font-size:60rpx;'></text>
+    <view class='fkword' id='fk1'>首页</view>
+  </view>
+  <view class='iicon' id='icon2' bindtap="showToastjl">
+    <text class='iconfont icon-other' style='color:#;font-size:70rpx;'></text>
+    <view class='fkword' id='fk2'>使用记录</view>
+  </view>
+  <view class='iicon' id='icon3' bindtap='toqyj2'>
+    <text class='iconfont icon-group' style='color:#;font-size:60rpx;'></text>
+    <view class='fkword' id='fk3'>关于权益菌</view>
+  </view>
+  <view class='iicon' id='icon4' bindtap="tome2">
+    <text class='iconfont icon-mine' style='color:#;font-size:60rpx;'></text>
+    <view class='fkword' id='fk4'>我</view>
+  </view>
+</view> -->

@@ -1,0 +1,187 @@
+<view id='allall' style='height:{{tall}};'>
+<view class='part' id='buaa'>
+  <view class='part_title' bindtap='buaashow'><text space='nbsp'>     官方活动</text>
+  <wux-icon type='ios-arrow-down' size='20' color='gray' class='title_icon'/>
+  </view>
+  <view class='part_act' id='part_buaa' style='display:{{buaa}};'>
+
+  <!-- <navigator url='../bhhd/syjz'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-ribbon' size='30' color=''/></view>
+      <view class='act_name'>沈元奖章</view>
+    </view>
+  </navigator> -->
+
+  <navigator url='../bhhd/tzb'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-jet' size='30' color=''/></view>
+      <view class='act_name'>..挑战杯..</view>
+    </view>
+  </navigator>
+  <navigator url='../bhhd/xq'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-rocket' size='30' color=''/></view>
+      <view class='act_name'>六七校庆</view>
+    </view>
+  </navigator>
+  <navigator url='../bhhd/xyh'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-flag' size='30' color=''/></view>
+      <view class='act_name'>..校运会..</view>
+    </view>
+  </navigator>
+  <navigator url='../bhhd/mls129'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-medical' size='30' color=''/></view>
+      <view class='act_name'>129回忆</view>
+    </view>
+  </navigator>
+  <navigator url='../yjhd/sxh'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-link' size='30' color=''/></view>
+      <view class='act_name'>..士小荟..</view>
+    </view>
+  </navigator>
+  </view>
+</view>
+
+<view class='part' id='quanyi'>
+  <view class='part_title' bindtap='qyshow'><text space='nbsp'>     学习生活</text>
+  <wux-icon type='ios-arrow-down' size='20' color='gray' class='title_icon'/>
+  </view>
+  <view class='part_act' id='part_quanyi' style='display:{{quanyi}};'>
+   <navigator url='../xxhd/hbjh'>
+    <view class='act_content'>
+      <view class='act_icon' id='hbjh'><wux-icon type='ios-contacts' size='30' color=''/></view>
+      <view class='act_name'>伙伴计划</view>
+    </view>
+  </navigator>
+  <navigator url='../xxhd/syjh'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-chatbubbles' size='30' color=''/></view>
+      <view class='act_name' id='syjh'>士疑解惑</view>
+    </view>
+  </navigator>
+  <navigator url='../qyhd/dxhd'>
+    <view class='act_content'>
+      <view class='act_icon' id='wjdc'><wux-icon type='ios-people' size='30' color=''/></view>
+      <view class='act_name'>导学活动</view>
+    </view>
+  </navigator>
+  <navigator url='../qyhd/qydc'>
+    <view class='act_content'>
+      <view class='act_icon' id='wjdc'><wux-icon type='ios-cash' size='30' color=''/></view>
+      <view class='act_name'>调查结果</view>
+    </view>
+  </navigator>
+  <!-- <navigator url='../qyhd/syjs'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-construct' size='30' color=''/></view>
+      <view class='act_name'>书院建设</view>
+    </view>
+  </navigator> -->
+  <navigator url='../qyhd/hdzj'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-apps' size='30' color=''/></view>
+      <view class='act_name' id='hdzj'>TD、志愿汇总</view>
+    </view>
+  </navigator>
+  </view>
+</view>
+
+<view class='part' id='cool'>
+  <view class='part_title' bindtap='wyshow'><text space='nbsp'>     休闲娱乐</text>
+  <wux-icon type='ios-arrow-down' size='20' color='gray' class='title_icon'/>
+  </view>
+  <view class='part_act' style='display:{{wenyi}};'>
+  <navigator url='../wyhd/xsdd'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-aperture' size='30' color=''/></view>
+      <view class='act_name'>信士诞旦</view>
+    </view>
+  </navigator>
+  <navigator url='../wyhd/xywh'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-bonfire' size='30' color=''/></view>
+      <view class='act_name'>相约回忆</view>
+    </view>
+  </navigator>
+  <navigator url='../yjhd/sek'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-archive' size='30' color=''/></view>
+      <view class='act_name'>..食饿卡..</view>
+    </view>
+  </navigator>
+  </view>
+</view>
+
+<view class='part' id='pe'>
+  <view class='part_title' bindtap='tyshow'><text space='nbsp'>     体育锻炼</text>
+  <wux-icon type='ios-arrow-down' size='20' color='gray' class='title_icon'/>
+  </view>
+  <view class='part_act' style='display:{{tiyu}};'>
+  <navigator url='../tyhd/tyjlb'>
+    <view class='act_content'>
+      <view class='act_icon' id='tyjlb'><wux-icon type='ios-flag' size='30' color=''/></view>
+      <view class='act_name' id='tyjlbt'>体育俱乐部</view>
+    </view>
+  </navigator>
+  <navigator url='../tyhd/lq'>
+    <view class='act_content'>
+      <view class='act_icon' id='tyjlb'><wux-icon type='ios-basketball' size='30' color=''/></view>
+      <view class='act_name' id='tyjlbt'>篮球小班赛</view>
+    </view>
+  </navigator>
+  <!-- <navigator url='../tyhd/ygyp'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='md-walk' size='30' color=''/></view>
+      <view class='act_name'>阳光夜跑</view>
+    </view>
+  </navigator>
+  <navigator url='../tyhd/pq'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-body' size='30' color=''/></view>
+      <view class='act_name'>排球决赛</view>
+    </view>
+  </navigator> -->
+  <!-- <navigator url='../tyhd/lq'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-basketball' size='30' color=''/></view>
+      <view class='act_name'>冠军之巅</view>
+    </view>
+  </navigator> -->
+  </view>
+</view>
+
+<!-- <view class='part' id='db'>
+  <view class='part_title' bindtap='dbshow'><text space='nbsp'>     各大班活动</text>
+  <wux-icon type='ios-arrow-down' size='20' color='gray' class='title_icon'/>
+  </view>
+  <view class='part_act' style='display:{{daban}};'>
+  <navigator url='../dbhd/dcdk'>
+    <view class='act_content'>
+      <view class='act_icon' id='dcdk'><wux-icon type='ios-archive' size='30' color=''/></view>
+      <view class='act_name' id='dcdkt'>单词打卡</view>
+    </view>
+  </navigator><navigator url='../dbhd/cdlt'>
+    <view class='act_content'>
+      <view class='act_icon' id='cdyy'><wux-icon type='ios-color-fill' size='30' color=''/></view>
+      <view class='act_name' id='cdyyt'>柴导有约</view>
+    </view>
+  </navigator>
+  <navigator url='../dbhd/xsgjn'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-mail-open' size='30' color=''/></view>
+      <view class='act_name' id='xsgjn'>X时光胶囊</view>
+    </view>
+  </navigator>
+  <navigator url='../dbhd/cbckt'>
+    <view class='act_content'>
+      <view class='act_icon'><wux-icon type='ios-code' size='30' color=''/></view>
+      <view class='act_name' id='cbckt'>C编程课堂</view>
+    </view>
+  </navigator>
+  </view>
+</view> -->
+
+</view>

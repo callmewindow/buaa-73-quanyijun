@@ -1,0 +1,162 @@
+page{
+  display: block;
+  background-color: rgb(251, 254, 255);
+}
+.part_title{
+  float: left;
+  padding-top: 20rpx;
+  margin-top: 30rpx;
+  width: 100%;
+  height: 70rpx;
+  font-size: 35rpx;
+  background-color: #fff;
+  border-top: 1rpx solid rgba(100, 100, 102, 0.322);
+  color: rgb(73, 73, 73);
+}
+.title_icon{
+  float: right;
+  margin-right: 110rpx;
+}
+.part_act{
+  float: left;
+  width: 100%;
+  height: 130rpx;
+  padding-top: 20rpx;
+  background-color: #fff;
+  border-bottom: 1rpx solid rgba(100, 100, 102, 0.322);
+}
+#part_quanyi{
+  height: 240rpx;
+}
+#part_buaa{
+  height: 240rpx;
+}
+.act_content{
+  height: 120rpx;
+  width: 140rpx;
+  float: left;
+  margin-left: 30rpx;
+}
+.act_icon{
+  float: left;
+  margin-left: 50rpx;
+  color: #7B92C9;
+}
+.act_name{
+  float: left;
+  width: 100%;
+  font-size: 27rpx;
+  margin-top: -10rpx;
+  padding-left: 20rpx;
+  color: #7B92C9;
+}
+#hdzj{
+  width: 120%;
+  margin-left: -25rpx;
+}
+#quanyi{
+  margin-top: 50rpx;
+}
+
+.wlsyt{
+  float: left;
+  width: 100%;
+  font-size: 27rpx;
+  margin-top: -10rpx;
+  padding-left: 15rpx;
+  color: rgba(94, 96, 124, 0.911);
+}
+#tyjlbt{
+  margin-left: -15rpx;
+}
+#zqt{
+  margin-left: -15rpx;
+}
+#syjh{
+  width: 300rpx;
+}
+#cqc{
+  margin-left: -10rpx;
+}
+#xsgjn{
+  margin-left: -5rpx;
+}
+#cbckt{
+  margin-left: -7rpx;
+}
+
+#bottom{
+  position: fixed;
+  bottom: 0rpx;
+  width: 100%;
+  height: 100rpx;
+  background-color: #E9F2FA;
+}
+.li_func{
+  float: left;
+  margin-left: 20%;
+  margin-top: 25rpx;
+  height: 50rpx;
+  width: 50rpx;
+}
+.bottom_icon{
+  height: 100%;
+  width: 100%;
+  float: left;
+}
+.icon_image{
+  width: 100%;
+  height: 100%;
+}
+
+#fbutton{
+  position: fixed;
+  border-top: 1rpx solid rgb(145, 143, 163);
+  bottom: 0rpx;
+  width: 100%;
+  height: 85rpx;
+  background-color: rgb(247, 247, 247);
+  color:  rgb(145, 143, 163);
+}
+.fkword{
+  font-size: 20rpx;
+}
+.iicon{
+  height: 60rpx;
+}
+#icon1{
+  margin-top: -12rpx;
+  position: fixed;
+  margin-left: 16.3%;
+}
+#fk1{
+  margin-left: 8rpx;
+  margin-top: -28rpx;
+}
+#icon2{
+  margin-top: -21rpx;
+  position: fixed;
+  margin-left: 235rpx;
+  display: none;
+}
+#fk2{
+  margin-left: -2rpx;
+  margin-top: -36rpx;
+}
+#icon3{
+  margin-top: -17rpx;
+  position: fixed;
+  margin-left: 46.4%;
+}
+#fk3{
+  margin-left: -17rpx;
+  margin-top: -22rpx;
+}
+#icon4{
+  margin-top: -16rpx;
+  margin-left: 78%;
+}
+#fk4{
+  margin-left: 19rpx;
+  margin-top: -25rpx;
+}

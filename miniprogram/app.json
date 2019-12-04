@@ -1,0 +1,96 @@
+{
+  "pages": [
+    "pages/first/first",
+    "pages/shieIntro/shieIntro",
+    "pages/xxcx/xxcx",
+    "pages/syhd/syhd",
+    "pages/intro/intro",
+    "pages/chatbot/chatbot",
+    "pages/me/me",
+
+    "pages/old73/yyxz",
+    "pages/old73/kjjs",
+    "pages/old73/gnjs",
+
+    "pages/newBegin/strategy",
+    "pages/newBegin/jxl",
+    "pages/newBegin/ss",
+    "pages/newBegin/bbzb",
+
+    "pages/gflj/jww",
+    "pages/gflj/wlsy1",
+    "pages/gflj/wlsy2",
+    "pages/gflj/kczx",
+    "pages/gflj/tccx",
+    "pages/gflj/bykt",
+    "pages/gflj/bhyx",
+    "pages/gflj/bhnw",
+    "pages/gflj/zybj",
+    "pages/gflj/cwc",
+    "pages/gflj/ihome",
+    "pages/gflj/bhyp",
+
+    "pages/gzhhz/sesy",
+    "pages/gzhhz/zxzh",
+    "pages/gzhhz/bh",
+    "pages/gzhhz/wyhy",
+    "pages/gzhhz/sxh",
+    "pages/gzhhz/xbq",
+
+    "pages/infor/fdy",
+    "pages/infor/xl",
+    "pages/infor/zssc",
+    "pages/infor/fwsc",
+    "pages/infor/xssc",
+
+    "pages/bhhd/xq",
+    "pages/bhhd/mls129",
+    "pages/bhhd/xyh",
+    "pages/bhhd/tzb",
+    "pages/bhhd/syjz",
+    "pages/yjhd/sezs",
+    "pages/yjhd/sxh",
+    "pages/yjhd/sek",
+    "pages/yjhd/dys",
+
+    "pages/qyhd/qydc",
+    "pages/qyhd/hdzj",
+    "pages/qyhd/dxhd",
+    "pages/wyhd/xywh",
+    "pages/wyhd/xsdd",
+    "pages/xxhd/syjh",
+    "pages/xxhd/hbjh",
+    "pages/tyhd/tyjlb",
+    "pages/tyhd/lq",
+
+    "pages/yqlj/ques",
+    "pages/yqlj/weui",
+    "pages/yqlj/wuxui",
+    "pages/yqlj/tucao",
+    "pages/yqlj/tp"
+  ],
+  "plugins": {
+    "chatbot": {
+      "version": "1.1.8",
+      "provider": "wx8c631f7e9f2465e1"
+    },
+    "WechatSI": {
+      "version": "0.3.3",
+      "provider": "wx069ba97219f66d99"
+    }
+  },
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#90989F",
+    "navigationBarTitleText": "权益菌",
+    "navigationBarTextStyle": "white"
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx8abaf00ee8c3202e",
+    "wxf68a40a9f57c8f3f"
+  ],
+  "sitemapLocation": "sitemap.json"
+}
