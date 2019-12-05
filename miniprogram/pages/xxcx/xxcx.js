@@ -10,6 +10,10 @@ Page({
     homeimg: '../../icon/home.png',
     alertimg: '../../icon/alert.png',
     identityimg: '../../icon/identity.png',
+
+    officialLinks:[],
+    officialAccounts:[],
+
   },
   
   tohome2: function () {
@@ -50,7 +54,37 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    if (!wx.cloud) {
+      wx.showToast({
+        title: '网络未连接',
+      })
+      return
+    }
+    var that = this
+    wx.cloud.callFunction({
+      name: 'getOfficialLink',
+      data: {},
+      success: res => {
+        that.setData({
+          officialLinks: res.result.officialLink.data
+        })
+      },
+      fail: err => {
+        console.error('[云函数] 调用失败', err)
+      }
+    })
+    wx.cloud.callFunction({
+      name: 'getOfficialAccount',
+      data: {},
+      success: res => {
+        that.setData({
+          officialAccounts: res.result.officialAccount.data
+        })
+      },
+      fail: err => {
+        console.error('[云函数] 调用失败', err)
+      }
+    })
   },
 
   /**

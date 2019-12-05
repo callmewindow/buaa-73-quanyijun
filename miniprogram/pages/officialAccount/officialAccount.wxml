@@ -1,0 +1,16 @@
+<view class='gzh_img'>
+  <image src='{{image}}' class='gzh_image'></image>
+</view>
+<view class='gzh_name'>
+  {{name}}
+</view>
+<view class='gzh_num' bindtap='copy' data-content = "{{num}}">
+  微信号：<text style='color:rgb(110, 147, 201)'>{{num}}</text>
+</view>
+<view class='plus'>点击可复制</view>
+<view class='gzh_intro'>
+  <text>{{intro}}</text>
+</view>
+<view class='gzh_alert'>
+  由于无法直接跳转，如有需要请点击名称或微信号，再自行搜索进行关注。
+</view>

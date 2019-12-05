@@ -1,0 +1,5 @@
+<view class='website'>
+  <view class='webdes'>{{name}}</view>
+  <view class='webtext' bindtap='copy' data-content = "{{link}}">{{link}}</view>
+  <view class='plus'>点击可复制</view>
+</view>

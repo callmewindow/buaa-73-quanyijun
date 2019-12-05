@@ -1,5 +1,0 @@
-<!--pages/fwsc/xssc.wxml-->
-<view class='website'>
-  <view class='webdes'>复制以下网址打开即可</view>
-  <view class='webtext'><text selectable='true'>bykc.buaa.edu.cn</text></view>
-</view>

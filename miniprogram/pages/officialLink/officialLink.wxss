@@ -1,0 +1,28 @@
+
+page{
+  background-color: rgb(251, 254, 255);
+  position: fixed;
+}
+.website{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 40%;
+}
+.webdes{
+  text-align: center;
+  font-size: 40rpx;
+  width: 100%;
+}
+.webtext{
+  width: 100%;
+  text-align: center;
+  font-size: 30rpx;
+  color: rgb(110, 147, 201);
+}
+.plus{
+  width: 100%;
+  color: gray;
+  font-size: 22rpx;
+  text-align: center;
+  margin-top: -7rpx;
+}
