@@ -6,8 +6,8 @@ Page({
    */
   data: {
     linkId:'',
-    name:"",
-    link:"",
+    name:"loading",
+    link:"loading",
   },
 
   copy: function (e) {
@@ -41,9 +41,25 @@ Page({
       _id: this.linkId
     }).get({
       success(res) {
-        that.setData({
-          name: res.data[0].name,
-          link: res.data[0].link
+        //获取数据后检查是否违规
+        wx.cloud.callFunction({
+          //名字
+          name: 'openapi', data: { msg: res.data[0].name },
+          success(res2) {
+            if (res2.result.msgR.errCode == 87014) { wx.showToast({ icon: 'none', title: '内容出错，暂不显示——404' }); return }
+            wx.cloud.callFunction({
+              //链接
+              name: 'openapi', data: { msg: res.data[0].link },
+              success(res3) {
+                if (res3.result.msgR.errCode == 87014) { wx.showToast({ icon: 'none', title: '内容出错，暂不显示——404' }); return }
+                //全部正确则进行传值展示
+                that.setData({
+                  name: res.data[0].name,
+                  link: res.data[0].link
+                })
+              }
+            })
+          }
         })
       }
     })

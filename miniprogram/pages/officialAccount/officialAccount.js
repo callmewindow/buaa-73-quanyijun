@@ -6,10 +6,10 @@ Page({
    */
   data: {
     accountId: '',
-    name: '',
+    name: 'loading',
     images: '',
-    num: '',
-    intro: '',
+    num: 'loading',
+    intro: 'loading',
   },
 
   copy: function(e) {
@@ -36,29 +36,57 @@ Page({
   onLoad: function (options) {
     const that = this
     this.accountId = options.id
-
     const db = wx.cloud.database({})
 
     db.collection('official_account').where({
       _id: this.accountId
     }).get({
       success(res) {
-        that.setData({
-          name: res.data[0].name,
-          intro: res.data[0].intro,
-          num: res.data[0].num,
-          image: res.data[0].image,
+        //获取数据后检查是否违规
+        wx.cloud.callFunction({
+          //名字
+          name: 'openapi', data: { msg: res.data[0].name },
+          success(res2) {
+            if (res2.result.msgR.errCode == 87014) { wx.showToast({ icon: 'none', title: '内容出错，暂不显示——404' }); return }
+            wx.cloud.callFunction({
+              //简介
+              name: 'openapi', data: { msg: res.data[0].intro },
+              success(res3) {
+                if (res3.result.msgR.errCode == 87014) { wx.showToast({ icon: 'none', title: '内容出错，暂不显示——404' }); return }
+                wx.cloud.callFunction({
+                  //号码
+                  name: 'openapi', data: { msg: res.data[0].num },
+                  success(res4) {
+                    if (res4.result.msgR.errCode == 87014) { wx.showToast({ icon: 'none', title: '内容出错，暂不显示——404' }); return }
+                    wx.cloud.callFunction({
+                      //图片
+                      name: 'openapi', data: { img: res.data[0].image },
+                      success(res5) {
+                        if (res5.result.msgR.errCode == 87014) { wx.showToast({ icon: 'none', title: '内容出错，暂不显示——404' }); return }
+                        //全部正确则进行传值展示
+                        that.setData({
+                          name: res.data[0].name,
+                          intro: res.data[0].intro,
+                          num: res.data[0].num,
+                          image: res.data[0].image,
+                        })
+                      }
+                    })
+                  }
+                })
+              }
+            })
+          }
         })
+
       }
     })
 
-    console.log(that.data.name)
-    if(this.name == "北航官方")
-    {
-      this.setData({
-        name: "北京航空航天大学"
-      })
-    }
+  },
+
+  checkMsg: function(e) {
+    console.log(this.temp);
+    return true;
   },
 
   /**

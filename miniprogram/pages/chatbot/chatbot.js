@@ -1,6 +1,7 @@
 // pages/chatbot/chatbot.js
 var plugin = requirePlugin("chatbot");
 var templist = [];
+var app = getApp();
 // var chat = plugin.getChatComponent(); 没有作用
 
 Page({
@@ -59,9 +60,9 @@ Page({
   // 开发者需要在小程序后台配置相应的域名
   // 1.1.7版本开始支持
   openWebview: function (e) {
-    let url = e.detail.weburl
+    wx.setStorageSync("twitterurl", e.detail.weburl)
     wx.navigateTo({
-      url: `/pages/webviewPage/webviewPage?url=${url}`
+      url: `/pages/twitter/twitter`
     })
   },
   // 点击机器人回答中的小程序，需要在开发者自己的小程序内做跳转
@@ -72,8 +73,7 @@ Page({
     wx.navigateToMiniProgram({
       appId: appid,
       path: pagepath,
-      extraData: {
-      },
+      extraData: {},
       envVersion: '',
       success(res) {
         // 打开成功
@@ -94,13 +94,23 @@ Page({
     var that = this
     wx.cloud.callFunction({
       name: 'getGuideList',
-      data: {
-
-      },
+      data: {},
       success: res => {
-        console.log(res)
-        templist = res.result.guidelist.data[0].data;
-        plugin.getChatComponent().setGuideList(templist);
+        for (let i = 0; i < res.result.guidelist.data[0].data.length; i++) {
+          //对列表内容依次检查是否合法
+          wx.cloud.callFunction({
+            //列表项判断
+            name: 'openapi', data: { msg: res.result.guidelist.data[0].data[i] },
+            success(res2) {
+              if (res2.result.msgR.errCode == 87014) { wx.showToast({ icon: 'none', title: '引导项内容出错，暂不显示，权益君功能仍可正常使用' }); return }
+              //全部正确则进行传值
+              if (i + 1 == res.result.guidelist.data[0].data.length) {
+                templist = res.result.guidelist.data[0].data;
+                plugin.getChatComponent().setGuideList(templist);
+              }
+            }
+          })
+        }
       },
       fail: err => {
         console.error('[云函数] 调用失败', err)

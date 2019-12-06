@@ -1,11 +1,11 @@
 {
   "pages": [
     "pages/first/first",
-    "pages/shieIntro/shieIntro",
+    "pages/chatbot/chatbot",
     "pages/xxcx/xxcx",
+    "pages/shieIntro/shieIntro",
     "pages/syhd/syhd",
     "pages/intro/intro",
-    "pages/chatbot/chatbot",
     "pages/me/me",
     "pages/old73/yyxz",
     "pages/old73/kjjs",
@@ -43,7 +43,8 @@
     "pages/yqlj/weui",
     "pages/yqlj/wuxui",
     "pages/yqlj/tucao",
-    "pages/yqlj/tp"
+    "pages/yqlj/tp",
+    "pages/twitter/twitter"
   ],
   "plugins": {
     "chatbot": {
